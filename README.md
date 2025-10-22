@@ -51,4 +51,4 @@ Always open to ideas, collabs, or tech chats!
 
 <br><br><br>
 
-##### Personal GitHub Profile Cover — © 2025 safetyknowledge, private content, not for reuse
+##### Personal GitHub Profile Cover — © 2025 psampaioc, private content, not for reuse
