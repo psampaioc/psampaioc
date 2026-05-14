@@ -29,7 +29,7 @@ Passionate about building and colaborating.
 ### 🔥 My Tech Stack
 A showcase of the tools and languages I enjoy:  
 
-[Building]
+C | C++ | python | 
 
 ---
 
