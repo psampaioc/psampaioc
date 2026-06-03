@@ -2,7 +2,7 @@
 
 My name is **Pedro Sampaio de Camargo** 
 <br>
-An Engineering student with a curious mind exploring **Robotics**, **Computer Science**, and **creative tech solutions**.
+An Engineering student with a curious mind exploring **Cyber Security**, **Robotics**, **Computer Science**, and **creative tech solutions**.
 <br>
 Passionate about building and colaborating.
 
