@@ -64,9 +64,16 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 |---------|-------|------------|
 | **`connectivity_check`** | ROS 2 Jazzy, C++17, nl80211 netlink, raw ICMP sockets | Single-node RSSI + ping monitor. Zero custom msgs, zero YAML, zero launch files. `CAP_NET_RAW` + `CAP_NET_ADMIN` + `--net=host`. |
 | **`video_ws`** | ROS 2, OpenCV, ONNX Runtime (CUDA/CPU), CRNN + CTC decode | Unified vision node: HDMI capture → ROI crop → OCR telemetry → JSON pub. Zero-copy, event-driven. |
-| **`AEGIS`** | Python, Ollama, SQLite WAL, `subprocess` sandboxing | Local AI orchestrator for 8GB VRAM: affinity scheduling (group by model), VRAM kill-switch (`torch.cuda.synchronize()`), CWD-isolated code execution, async HITL approval. |
 
 **Hardware side:** Private PCB/KiCad repo for a company collaboration — analog front-ends, power integrity, DFM-ready layouts.
+
+
+
+## Pet
+
+| Project | Stack | Highlights |
+|---------|-------|------------|
+| **`AEGIS`** | Python, Ollama, SQLite WAL, `subprocess` sandboxing | Local AI orchestrator for 8GB VRAM: affinity scheduling (group by model), VRAM kill-switch (`torch.cuda.synchronize()`), CWD-isolated code execution, async HITL approval. |
 
 
 
@@ -84,21 +91,8 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 | **CTI Integration** | Daily parsing of gov/industry intel feeds → IoC extraction → dynamic watchlist injection with false-positive stress testing against 30-day log history. |
 | **CrowdStrike Outage (19/07/2024)** | Live incident: Recovery across fleet when the sensor *became* the threat. |
 
-**Philosophy forged there:**  
+>**Philosophy forged there:**  
 > *MTTD and MTTC metrics: Dwell time in seconds, not days. The attacker is already inside — our job is to make their stay expensive and short.*
-
-
-
-## 📂 Featured Repositories
-
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [`ROS2_Conectivity_Check`](https://github.com/psampaioc/ROS2_Conectivity_Check) | Minimal RSSI + ICMP monitor — single binary, hardcoded config, 1Hz log line | C++17, ROS 2, nl80211, raw ICMP |
-| [`video_ws`](https://github.com/psampaioc/video_ws) | HDMI → ROI → OCR → telemetry pipeline. V1 (modular) → V2 (unified, zero-copy) | C++, ROS 2, ONNX, OpenCV |
-| [`AEGIS`](https://github.com/psampaioc/AEGIS) | Local LLM orchestrator: VRAM-aware scheduling, sandboxed exec, async HITL | Python, Ollama, SQLite WAL |
-| [`Programa-de-Gestao-de-Condominios`](https://github.com/psampaioc/Programa-de-Gestao-de-Condominios) | C++ console app — fractions, condominiums, expenses, movements (Data Structures course) | C++17, STL, file I/O |
-
-> 🔒 *Private repo: PCB/KiCad hardware design for industry partner*
 
 
 
@@ -123,7 +117,7 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 ---
 
 <details>
-<summary><b>🎲 Fun Facts / Easter Eggs</b></summary>
+<summary><b>🎲 Fun Facts </b></summary>
 
 - My cyber home lab started in **Cisco Packet Tracer** + VMs on a laptop that froze at 4 VMs — taught me resource discipline the hard way.
 - Learned offensive security on **TryHackMe/Hack The Box** to become a better defender (reverse-engineering the kill chain).
@@ -132,8 +126,6 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 - Practice sports everyday, yet sometimes daydreaming about the end of year snowboard trip to come!
 
 </details>
-
----
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30&height=100&section=footer&animation=twinkling" />
