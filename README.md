@@ -60,13 +60,13 @@ I'm easygoing but fiercely dedicated when it counts. I value deep, practical exe
 ## Latest Activity
 
 <!-- START_SECTION:activity -->
-*GitHub Actions workflow for recent commits will populate here.*
+*Work in progress*
 <!-- END_SECTION:activity -->
 
 ## Recent Publications
 
 <!-- START_SECTION:blog -->
-*GitHub Actions workflow for latest blog posts will populate here.*
+*Work in progress.*
 <!-- END_SECTION:blog -->
 
 - **["Cibersegurança: Minha Perspectiva Prática"](https://github.com/psampaioc/psampaioc/blob/main/Ciberseguranca_by_Pedro_Sampaio.pdf)** — 9-part field report from the Citadel trenches. *Portuguese, June 2024.*
@@ -116,10 +116,8 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=psampaioc&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&custom_title=Pedro's%20GitHub%20Stats" height="165" alt="Pedro's general GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=psampaioc&layout=compact&theme=tokyonight&hide_border=true&custom_title=Top%20Languages" height="165" alt="Pedro's most used programming languages" />
-</p>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=psampaioc&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&custom_title=Pedro's%20GitHub%20Stats" height="165" alt="Pedro's GitHub statistics" />
+  
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=psampaioc&theme=tokyonight&mode=weekly&hide_border=true" height="165" alt="Pedro's GitHub contribution streak" />
 </p>
