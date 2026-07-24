@@ -57,6 +57,20 @@ I'm easygoing but fiercely dedicated when it counts. I value deep, practical exe
 - **SIEM/SEC:** Splunk (SPL) • Microsoft Sentinel (KQL) • QRadar • CrowdStrike • Proofpoint
 - **Infra/Hardware:** systemd • iptables • KiCad • STM32/ESP32 • PCB design (signal/power integrity)
 
+## Latest Activity
+
+<!-- START_SECTION:activity -->
+*GitHub Actions workflow for recent commits will populate here.*
+<!-- END_SECTION:activity -->
+
+## Recent Publications
+
+<!-- START_SECTION:blog -->
+*GitHub Actions workflow for latest blog posts will populate here.*
+<!-- END_SECTION:blog -->
+
+- **["Cibersegurança: Minha Perspectiva Prática"](https://github.com/psampaioc/psampaioc/blob/main/Ciberseguranca_by_Pedro_Sampaio.pdf)** — 9-part field report from the Citadel trenches. *Portuguese, June 2024.*
+
 ## Robotics & Systems: Current Focus
 
 ### **HCMR Lab / ISR-UC** — *Coimbra, Portugal*
@@ -91,27 +105,13 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 
 > **Philosophy forged there:** MTTD and MTTC metrics: Dwell time in seconds, not days. The attacker is already inside — our job is to make their stay expensive and short.
 
-## Latest Activity
-
-<!-- START_SECTION:activity -->
-*GitHub Actions workflow for recent commits will populate here.*
-<!-- END_SECTION:activity -->
-
-## Recent Publications
-
-<!-- START_SECTION:blog -->
-*GitHub Actions workflow for latest blog posts will populate here.*
-<!-- END_SECTION:blog -->
-
-- **["Cibersegurança: Minha Perspectiva Prática"](https://github.com/psampaioc/psampaioc/blob/main/Ciberseguranca_by_Pedro_Sampaio.pdf)** — 9-part field report from the Citadel trenches. *Portuguese, June 2024.*
-
 ## GitHub Pulse
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/psampaioc/psampaioc/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/psampaioc/psampaioc/output/github-contribution-grid-snake.svg">
-    <img alt="Pedro's GitHub contribution snake animation" src="https://raw.githubusercontent.com/psampaioc/psampaioc/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+    <img alt="github-snake" src="github-snake.svg" />
   </picture>
 </p>
 
