@@ -7,37 +7,41 @@
   <img src="https://img.shields.io/badge/Lab-HCMR%20%7C%20ISR--UC-FF6B35?style=flat-square" alt="lab" />
 </p>
 
-> **"Assume Breach. Hunt actively. Contain in seconds. Document everything."**
+> **Researcher. Strategist. Builder. Document everything.**
 
 ---
 
-## 🧭 Who Am I?
+## Who Am I?
 
-Engineering student at the **University of Coimbra** (DEEC, Polo II), collaborating with the **Human-Centered Mobile Robotics Lab (HCMR)** at **ISR-UC** (Institute of Systems and Robotics).
+Engineering student at the **University of Coimbra** (FCTUC, DEEC, Polo II), collaborating with the **Human-Centered Mobile Robotics Lab (HCMR)** at **ISR-UC** (Institute of Systems and Robotics).
 
-By day: **Robotics & Systems Engineer** — ROS 2, computer vision, embedded Linux, real-time networking.  
-By night (and 2023–2024): **SOC Analyst at Citadel Cyber Security (Rehovot, Israel)** — multi-tenant SIEM engineering, threat hunting, email perimeter defense, and incident response under *actual* wartime conditions.
+After managing high-risk environments as a military commander and cybersecurity analyst, I transitioned to the root of technology development. Today, at the University of Coimbra and the Institute of Systems and Robotics (ISR), I develop the hardware and edge computing architectures that power autonomous robots and agentic AI.
+My end goal is to use the knowledge of physical engineering to actively lead the next technological revolution: the integration of humans and machines.
 
+I am driven by practical execution, a first-principles approach to complex problem-solving, and the conviction that technology must elevate human capacity. I am equally passionate about connecting with those who are pushing the absolute limits of robotics with dedication. Let's connect and build what comes next.
 **Personality:** Light and funny, but serious and hardworking when it matters. I believe the best defense is deep technical understanding — not buzzwords.
 
 ---
 
-## 🛡️ Cybersecurity: The "Assume Breach" Years (2023–2024)
+## 🎯 What I'm Looking For
 
-### **Citadel Cyber Security** — *Rehovot, Israel*
-**SOC Analyst (Tier 1→3 + Consultant) | Multi-tenant MSSP defending 40+ critical infrastructure clients**
+- **Robotics/Autonomy R&D** — perception, localization, multi-agent systems, land/airborne platforms
+- **Security Engineering** — detection engineering, SIEM rules, endpoint hardening, DevSecOps
+- **Embedded Linux / Real-time Systems** — 
+- **Technical Leadership** — bridging the "developer vs. security" paradox with empathy and tooling
 
-| Domain | What I Did |
-|--------|------------|
-| **SIEM Engineering** | Operated **5+ SIEMs simultaneously** (Splunk, Sentinel, QRadar, CrowdStrike). Wrote **SPL/KQL** detection logic daily — translated threats across query languages in minutes. |
-| **Threat Hunting** | Proactive hunting via behavioral paradoxes: `svchost.exe` phoning home, service accounts running encoded PowerShell at 04:00. Built lookup tables & automated correlation funnels. |
-| **Email Perimeter (SEG)** | Proofpoint & Defender for O365. Raw SMTP header forensics, sandbox detonation (ISO/IMG/XLM macros), lookalike domain takedowns via SPF/DKIM/DMARC enforcement. |
-| **Endpoint Containment** | Remote EDR shell forensics — process trees, memory dumps, network isolation. **Owner from alert → investigation → client report → remediation rule.** |
-| **CTI Integration** | Daily parsing of gov/industry intel feeds → IoC extraction → dynamic watchlist injection with false-positive stress testing against 30-day log history. |
-| **CrowdStrike Outage (19/07/2024)** | Live incident: coordinated containment & recovery across fleet when the sensor *became* the threat. |
+---
 
-**Philosophy forged there:**  
-> *MTTD and MTTC are the only metrics that matter. Dwell time in seconds, not days. The attacker is already inside — your job is to make their stay expensive and short.*
+## Tech Stack
+
+Languages:       C/C++  •  Python  •  Bash  •  SPL/KQL/SQL  •  CMake
+Robotics:        ROS 2 (Jazzy/Humble)  •  DDS/RTPS  •  composable nodes  •  ament_cmake
+Computer Vision: OpenCV  •  ONNX Runtime  •  CRNN/OCR  •  V4L2
+Networking:      nl80211/netlink  •  raw sockets (ICMP/TCP/UDP)  • DDS discovery
+Containers:      Docker (--net=host --ipc=host --pid=host)  • capability management
+SIEM/SEC:        Splunk (SPL)  •  Microsoft Sentinel (KQL)  •  QRadar  •  CrowdStrike  •  Proofpoint
+Infra/Linux:     systemd  •  iptables  
+Hardware:        KiCad  •  STM32/ESP32  •  PCB design (signal/power integrity)
 
 ---
 
@@ -56,18 +60,22 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 
 ---
 
-## 🧰 Technical Toolbox
+## 🛡️ Cybersecurity: The "Assume Breach" Years (2023–2024)
 
-```text
-Languages:       C/C++17  •  Python  •  Bash  •  SPL/KQL/SQL  •  CMake
-Robotics:        ROS 2 (Jazzy/Humble)  •  DDS/RTPS  •  composable nodes  •  ament_cmake
-Computer Vision: OpenCV  •  ONNX Runtime  •  CRNN/OCR  •  V4L2  •  GStreamer
-Networking:      nl80211/netlink  •  raw sockets (ICMP/TCP/UDP)  •  ModemManager  •  DDS discovery
-Containers:      Docker (--net=host --ipc=host --pid=host)  •  colcon in-container  •  capability management
-SIEM/SEC:        Splunk (SPL)  •  Microsoft Sentinel (KQL)  •  QRadar  •  CrowdStrike  •  Proofpoint
-Infra/Linux:     systemd  •  udev  •  capabilities(7)  •  netfilter/iptables  •  realtime scheduling
-Hardware:        KiCad  •  STM32/ESP32  •  PCB design (signal/power integrity)  •  JTAG/SWD debug
-```
+### **Citadel Cyber Security** — *Rehovot, Israel*
+**SOC Analyst (Tier 1→3 + Consultant) | Multi-tenant MSSP defending 40+ critical infrastructure clients**
+
+| Domain | What I Did |
+|--------|------------|
+| **SIEM Engineering** | Operated **5+ SIEMs simultaneously** (Splunk, Sentinel, QRadar, CrowdStrike). Wrote **SPL/KQL** detection logic daily — translated threats across query languages in minutes. |
+| **Threat Hunting** | Proactive hunting via behavioral paradoxes: `svchost.exe` phoning home, service accounts running encoded PowerShell at 04:00. Built lookup tables & automated correlation funnels. |
+| **Email Perimeter (SEG)** | Proofpoint & Defender for O365. Raw SMTP header forensics, sandbox detonation (ISO/IMG/XLM macros), lookalike domain takedowns via SPF/DKIM/DMARC enforcement. |
+| **Endpoint Containment** | Remote EDR shell forensics — process trees, memory dumps, network isolation. **Owner from alert → investigation → client report → remediation rule.** |
+| **CTI Integration** | Daily parsing of gov/industry intel feeds → IoC extraction → dynamic watchlist injection with false-positive stress testing against 30-day log history. |
+| **CrowdStrike Outage (19/07/2024)** | Live incident: Recovery across fleet when the sensor *became* the threat. |
+
+**Philosophy forged there:**  
+> *MTTD and MTTC metrics: Dwell time in seconds, not days. The attacker is already inside — our job is to make their stay expensive and short.*
 
 ---
 
@@ -86,33 +94,8 @@ Hardware:        KiCad  •  STM32/ESP32  •  PCB design (signal/power integrit
 
 ## 📜 Writing & Talks
 
-- **["Cibersegurança: Minha Perspectiva Prática"](https://github.com/psampaioc/psampaioc/blob/main/Ciberseguranca_by_Pedro_Sampaio.pdf)** — 9-part field manual from the Citadel trenches (SIEM, SEG, hunting, governance, CrowdStrike outage, developer paradox). *Portuguese, June 2024.*
+- **["Cibersegurança: Minha Perspectiva Prática"](https://github.com/psampaioc/psampaioc/blob/main/Ciberseguranca_by_Pedro_Sampaio.pdf)** — 9-part field report from the Citadel trenches (SIEM, SEG, hunting, governance, CrowdStrike outage, developer paradox). *Portuguese, June 2024.*
 - **GitHub Profile README** — You're reading it. Built to be useful, not just pretty.
-
----
-
-## 🎯 What I'm Looking For
-
-- **Robotics/Autonomy R&D** — perception, localization, multi-agent systems, marine/airborne platforms
-- **Security Engineering** — detection engineering, SIEM architecture, endpoint hardening, DevSecOps
-- **Embedded Linux / Real-time Systems** — Yocto, PREEMPT_RT, capability-based sandboxing
-- **Technical Leadership** — bridging the "developer vs. security" paradox with empathy and tooling
-
----
-
-## 🌐 Connect
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/pedro-camargo-cyber/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:cyberpedrosecurity@proton.me">
-    <img src="https://img.shields.io/badge/Email-8B0000?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/psampaioc">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
 
 ---
 
@@ -132,12 +115,11 @@ Hardware:        KiCad  •  STM32/ESP32  •  PCB design (signal/power integrit
 <details>
 <summary><b>🎲 Fun Facts / Easter Eggs</b></summary>
 
-- My home lab started in **Cisco Packet Tracer** + VMs on a laptop that froze at 4 VMs — taught me Linux resource discipline the hard way.
+- My cyber home lab started in **Cisco Packet Tracer** + VMs on a laptop that froze at 4 VMs — taught me resource discipline the hard way.
 - Learned offensive security on **TryHackMe/Hack The Box** to become a better defender (reverse-engineering the kill chain).
 - Served in the **IDF** (2020–2023) — discipline under stress, "Tachles" mindset: cut bureaucracy, solve the problem.
-- The `connectivity_check` node runs on my robot's Raspberry Pi — it texts me when WiFi drops below -80 dBm.
-- I write detection rules like I write code: **tested against 30 days of history**, version-controlled, peer-reviewed.
-- Coffee preference: **Portuguese bica** (espresso) — no sugar, no milk, just pure extraction.
+- I write detection rules like I write code: **stress-tested**, version-controlled, peer-reviewed.
+- Practice sports everyday, yet sometimes daydreaming about the end of year snowboard trip to come!
 
 </details>
 
@@ -148,6 +130,6 @@ Hardware:        KiCad  •  STM32/ESP32  •  PCB design (signal/power integrit
 </p>
 
 <p align="center">
-  <sub>Built with ❤️, C++, Python, and a healthy dose of <code>Assume Breach</code>.<br>
+  <sub>Built with excitement, C++, Python, and a lot of work.<br>
   © 2025 Pedro Sampaio de Camargo — <a href="https://github.com/psampaioc">psampaioc</a></sub>
 </p>
