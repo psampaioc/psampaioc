@@ -1,4 +1,4 @@
-# Pedro Sampaio de Camargo 👋
+#### **_Researcher. Strategist. Builder. Document everything._**
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=psampaioc&style=flat-square&color=blueviolet" alt="profile views" />
@@ -7,11 +7,22 @@
   <img src="https://img.shields.io/badge/Lab-HCMR%20%7C%20ISR--UC-FF6B35?style=flat-square" alt="lab" />
 </p>
 
-> **Researcher. Strategist. Builder. Document everything.**
+## 🌐 Connect
 
----
+<p align="left">
+  <a href="https://www.linkedin.com/in/pedro-camargo-cyber/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:cyberpedrosecurity@proton.me">
+    <img src="https://img.shields.io/badge/Email-8B0000?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/psampaioc">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
-## Who Am I?
+
+# Pedro Sampaio de Camargo 👋
 
 Engineering student at the **University of Coimbra** (FCTUC, DEEC, Polo II), collaborating with the **Human-Centered Mobile Robotics Lab (HCMR)** at **ISR-UC** (Institute of Systems and Robotics).
 
@@ -19,9 +30,9 @@ After managing high-risk environments as a military commander and cybersecurity 
 My end goal is to use the knowledge of physical engineering to actively lead the next technological revolution: the integration of humans and machines.
 
 I am driven by practical execution, a first-principles approach to complex problem-solving, and the conviction that technology must elevate human capacity. I am equally passionate about connecting with those who are pushing the absolute limits of robotics with dedication. Let's connect and build what comes next.
-**Personality:** Light and funny, but serious and hardworking when it matters. I believe the best defense is deep technical understanding — not buzzwords.
+**Personality:** Keeping it Light and funny, but serious and hardworking when it matters. I believe the best defense is deep practical understanding, not buzzwords.
 
----
+
 
 ## 🎯 What I'm Looking For
 
@@ -30,20 +41,19 @@ I am driven by practical execution, a first-principles approach to complex probl
 - **Embedded Linux / Real-time Systems** — 
 - **Technical Leadership** — bridging the "developer vs. security" paradox with empathy and tooling
 
----
+
 
 ## Tech Stack
 
-Languages:       C/C++  •  Python  •  Bash  •  SPL/KQL/SQL  •  CMake
-Robotics:        ROS 2 (Jazzy/Humble)  •  DDS/RTPS  •  composable nodes  •  ament_cmake
-Computer Vision: OpenCV  •  ONNX Runtime  •  CRNN/OCR  •  V4L2
-Networking:      nl80211/netlink  •  raw sockets (ICMP/TCP/UDP)  • DDS discovery
-Containers:      Docker (--net=host --ipc=host --pid=host)  • capability management
-SIEM/SEC:        Splunk (SPL)  •  Microsoft Sentinel (KQL)  •  QRadar  •  CrowdStrike  •  Proofpoint
-Infra/Linux:     systemd  •  iptables  
-Hardware:        KiCad  •  STM32/ESP32  •  PCB design (signal/power integrity)
+- Languages:       C/C++  •  Python  •  Bash  •  SPL/KQL/SQL  •  CMake
+- Robotics:        ROS 2 (Jazzy/Humble)  •  DDS/RTPS  •  composable nodes  •  ament_cmake
+- Computer Vision: OpenCV  •  ONNX Runtime  •  CRNN/OCR  •  V4L2
+- Networking:      nl80211/netlink  •  raw sockets (ICMP/TCP/UDP)  • DDS discovery
+- Containers:      Docker (--net=host --ipc=host --pid=host)  • capability management
+- SIEM/SEC:        Splunk (SPL)  •  Microsoft Sentinel (KQL)  •  QRadar  •  CrowdStrike  •  Proofpoint
+- Infra/Linux:     systemd  •  iptables  
+- Hardware:        KiCad  •  STM32/ESP32  •  PCB design (signal/power integrity)
 
----
 
 ## 🤖 Robotics & Systems: Current Focus
 
@@ -58,7 +68,7 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 
 **Hardware side:** Private PCB/KiCad repo for a company collaboration — analog front-ends, power integrity, DFM-ready layouts.
 
----
+
 
 ## 🛡️ Cybersecurity: The "Assume Breach" Years (2023–2024)
 
@@ -77,7 +87,7 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 **Philosophy forged there:**  
 > *MTTD and MTTC metrics: Dwell time in seconds, not days. The attacker is already inside — our job is to make their stay expensive and short.*
 
----
+
 
 ## 📂 Featured Repositories
 
@@ -90,14 +100,14 @@ Building autonomous marine/airborne perception stacks — where robotics meets r
 
 > 🔒 *Private repo: PCB/KiCad hardware design for industry partner*
 
----
+
 
 ## 📜 Writing & Talks
 
 - **["Cibersegurança: Minha Perspectiva Prática"](https://github.com/psampaioc/psampaioc/blob/main/Ciberseguranca_by_Pedro_Sampaio.pdf)** — 9-part field report from the Citadel trenches (SIEM, SEG, hunting, governance, CrowdStrike outage, developer paradox). *Portuguese, June 2024.*
 - **GitHub Profile README** — You're reading it. Built to be useful, not just pretty.
 
----
+
 
 ## 📊 GitHub Pulse
 
